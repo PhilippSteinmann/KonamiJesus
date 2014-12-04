@@ -1,7 +1,9 @@
 .jesus-image {
     display: none;
-    z-index: 1000;
+    z-index: 10000;
     height: 100%;
+    max-width: 778px;
+    max-height: 980px;
 
     position: absolute;
     top: 0;

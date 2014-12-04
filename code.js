@@ -2,11 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener("keydown", checkPress);
 });
 
-var fkeys=[];
-var okeys=[74, 69,83,85,83,13];
+var fkeys = [];
+var okeys = [74, 69,83,85,83,13];
 
 function checkPress(k) {
-    clear();
     if (fkeys.length > okeys.length){
         fkeys=[];    
     }
